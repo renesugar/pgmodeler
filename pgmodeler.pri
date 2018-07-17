@@ -146,8 +146,8 @@ unix:!macx {
 }
 
 macx {
-  PGSQL_LIB = /Library/PostgreSQL/10.1/lib/libpq.dylib
-  PGSQL_INC = /Library/PostgreSQL/10.1/include
+  PGSQL_LIB = /usr/local/Cellar/postgresql/10.3/lib/libpq.dylib
+  PGSQL_INC = /usr/local/Cellar/postgresql/10.3/include
   XML_INC = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/libxml2
   XML_LIB = /usr/lib/libxml2.dylib
   INCLUDEPATH += $$PGSQL_INC $$XML_INC
